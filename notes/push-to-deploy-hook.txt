@@ -1,0 +1,19 @@
+git hook for push-to-deploy:
+
+File: .git/hooks/post-receive (+x)
+
+#!/usr/bin/env ruby
+# post-receive
+
+from, to, branch = ARGF.read.split " "
+
+if (branch =~ /production$/) == nil
+        puts "Received branch #{branch}, not deploying."
+        exit
+end
+
+deploy_to_dir = File.expand_path('~/public_html/some/dir')
+
+`GIT_WORK_TREE="#{deploy_to_dir}" git checkout -f production`
+puts "\n\nDEPLOY: production(#{to}) copied to '#{deploy_to_dir}'"
+********@********.com [~/git/********.git/hooks]#

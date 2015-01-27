@@ -1,2 +1,3 @@
-# CryptoPartyMN2015
+![CryptoParty MN](https://raw.githubusercontent.com/CryptoPartyMN/CryptoPartyMN2015/master/notes/cpmn.PNG "CryptoParty MN")
+
 CryptoPartyMN Website 2015

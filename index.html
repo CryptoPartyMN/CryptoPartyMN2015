@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/banana-brick" rel="stylesheet" type="text/css"/>
+    <style>
+      html, body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        min-width: 380px;
+      }
+      body{
+        font-family: Arial;
+      }
+      a{
+        text-decoration: none;
+        color: #FF0098;
+      }
+      
+      a:hover{
+        text-decoration: underline;
+        color: #FF00AA;
+      }
+      
+      .wrapper{
+        min-height: 100%;
+        position: relative;
+      }
+      
+      
+
+      
+      .content{
+        padding-bottom: 6em;
+      }
+      
+      footer{
+        position: absolute;
+        bottom: 0; left:0; right:0;
+        padding: 1em 0;
+        width: auto;
+        height: 3em;
+        background: #FF0098;
+        color: white;
+        text-align: center;
+      } 
+      
+      .branding{
+        margin-top: -2em;
+        display: inline-block;
+      }
+      h1.logo{
+        display:none;
+      }
+      img.logo{
+        display: inline-block;
+        width: 400px;
+        height:auto;
+      }
+      .mn{
+        display: inline-block;
+        font-family: BananaBrickRegular;
+        font-size:12.85em;
+        color: #FF0098;
+      }
+      
+      .tagline {
+        margin-top: -2.65em;
+        text-align: right;
+      }
+           
+      navigation{
+        position: absolute;
+        top: 0;
+        right: 1em;
+      }
+      navigation a{
+        display: block;
+        align: right;
+        font-family: BananaBrickRegular;
+        font-size: 1.25em;
+        margin: .5em;
+      }
+      
+
+      
+      h2, h3{
+        font-family: BananaBrickRegular;
+        font-weight: normal;
+        
+      }
+      
+      h2{
+        font-size: 2em;
+        color: #fff;
+        background: #FF0098;
+        width: 100%;
+        margin: 2em 0 .5em;
+      }
+      
+      h3{
+        font-size:1.5em;
+        color: #fff;
+        background: #FF0098;
+        margin: 2em 0 .5em;
+        padding:  .25em 1em;
+      }
+      
+      .post .text{
+        padding: 1em;
+      }
+      
+
+      
+      @media screen and (max-width:850px){
+        .branding{
+          margin: -.4em .1em;
+        }
+        img.logo{
+          width: 200px;
+        }
+        .mn{
+          font-size: 6em;
+        }
+        
+        .tagline{
+          margin-top: -1.25em;
+          text-align: right;
+        }
+      }
+      
+      @media screen and (max-width:520px){
+        .branding{
+          margin: 0;
+        }
+        navigation{
+          position: relative;
+          display: block;
+          margin-left: .5em;
+        }
+        
+        .clear{
+          clear: both;
+        }
+        
+        navigation a{
+          display: inline-block;
+          float: left;
+          font-size: 1.5em;
+        }
+        
+        navigation a:nth-child(2n+1){
+          clear: left;
+        }
+        
+        img.logo{
+          width: 200px;
+        }
+        .mn{
+          font-size: 6em;
+        }
+        
+
+        
+    </style>
+  
+  </head>
+  <body ng-app='myApp' ng-controller='indexCtrl'>    
+    <div class="wrapper">
+      <header>
+        <div class='branding'>
+          <a href='/'>
+            <img class='logo' src='images/crypto_logo.svg' />
+            <span class='mn'>MN</span>
+          </a>
+          <div class='tagline'>Free Event @ Waterbury April 11th 2015</div>
+        </div>
+        
+         <navigation>
+            <a href='javascript:void(0)'>About</a>
+            <a href='javascript:void(0)'>Contact</a>
+            <a href='javascript:void(0)'>News</a>
+            <a href='javascript:void(0)'>RSVP</a>
+
+          <div class='clear'></div>
+        </navigation>
+    </header>    	
+    <div class='content'>
+      <h2>News</h2>
+      
+      <div class='post'>
+        <h3>RSVP Now!</h3>
+        <div class='text'>
+         AGH
+        </div>
+      </div>
+      
+      <div class='post'>
+        <h3>Crypthulu Fhtagn</h3>
+        <div class='text'>
+          <p>
+            Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. Naflgnaiih grah'n nwyar, n'ghft h'Nyarlathotep h'ee ulnoth hrii vulgtm 'bthnk Cthulhu, r'luhyar athg eenyth naflR'lyeh hai grah'n ch'. 
+          </p>
+          <p>
+            R'lyehyar hlirgh ooboshu Shub-Niggurath ya syha'h n'gha Nyarlathotep ee gotha, vulgtm zhro lloig ya Hastur nw orr'e Cthulhu. Ep n'gha r'luhor ph'lloig throd s'uhn vulgtm nghupadgh nan'gha shtunggli, stell'bsna vulgtm gotha fhtagnagl lw'nafh f'ebunma fm'latgh nog athg, h'ee Dagon nallll ftaghu Nyarlathotep wgah'n uln kadishtu. Naflgoka r'luh llll y-Shub-Niggurath gotha geb ron ngfhtagn stell'bsna hupadgh Dagon ron, Dagon geb ch' nahlirgh ngooboshu y-hlirgh bugog Chaugnar Faugnyar sgn'wahl. 
+          </p>
+          <p>
+            'fhalma stell'bsna orr'e ph'ya k'yarnak ebunma chtenff n'gha y'hahagl athg ebunma uh'e 'ai nnnDagon, y'hah goka ch'yar stell'bsna n'gha Cthulhu ph'y'hah y-ah s'uhn ph'shugg ilyaa nnntharanak. N'gha nggoka gothaor cehye lloig shogg hupadgh ooboshu, 'fhalmaagl mnahn'nyth nw h'k'yarnak wgah'nog Nyarlathotep Shub-Niggurathagl uln, hupadgh llll y-mnahn' zhro ehye h'chtenff. Ah nauln ilyaa ee ph'r'luh ftaghuoth Azathothog chtenff ronor chtenff tharanak, ebunma tharanak s'uhn nnnShub-Niggurath nog y-Yoggoth nnnhupadgh ulnog geb nawgah'n ya, ngmnahn' vulgtm nnns'uhn y-ch' lw'nafh cnilgh'ri f'Chaugnar Faugn nglui ebunma. Nafls'uhn R'lyeh fm'latgh 'ai nafllloig nilgh'ri Yoggoth kn'a shtunggli shogg fm'latgh n'gha shtunggli cs'uhn hrii, li'hee nilgh'ri stell'bsnaoth ngk'yarnak uln f'stell'bsna hrii s'uhn n'gha naDagon geb ftaghu. 
+          </p>
+        </div>
+      </div>
+      
+      <div class='post'>
+        <h3>What's CryptoPartyMN?</h3>
+        <div class='text'>
+          CryptoPartyMN is everyone encrypt everything all the fuckin' time k?
+        </div>
+      </div>
+      
+    </div>
+    
+    <footer>
+      &copy; 2015 CryptoPartyMN
+    </footer>
+    </div>
+  </body>
+</html>

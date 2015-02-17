@@ -1,0 +1,10 @@
+[Theme description]
+name =                  'CryptoPartyMN'
+version =               '0.1'
+author =                'Ivy Fae'
+author_url =            'http://ivybaumgarten.com'
+description =           'A Vibrant CryptoParty Theme'
+
+[Extensions]
+pages/home/blurb =      'CryptoPartyMN/home/blurb'
+

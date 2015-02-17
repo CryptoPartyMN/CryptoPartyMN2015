@@ -1,0 +1,191 @@
+html, body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        min-width: 380px;
+}
+body{
+font-family: Arial;
+}
+
+.container.page-body{
+padding-top: 16em;
+}
+
+.idno-content{
+	border: none;
+}
+
+.span8.offset2{
+	margin: 0;
+	width: 95%;
+}
+
+.idno-object .permalink a{
+	color: #FF0098;
+}
+
+.idno-object h2, .idno-object h3{
+font-family: BananaBrickRegular;
+font-weight: normal;
+color: #fff;
+padding-left: .75em;
+}
+
+.idno-object h2 a, .idno-object h3 a{
+  color: #fff;
+}
+
+a{
+text-decoration: none;
+color: #FF0098;
+}
+
+a:hover{
+text-decoration: underline;
+color: #FF00AA;
+}
+
+.wrapper{
+min-height: 100%;
+position: relative;
+}
+
+.navbar .brand{
+	padding: inherit;
+}
+
+.navbar .container{
+	width: inherit;
+}
+
+.content{
+padding-bottom: 6em;
+}
+
+footer{
+position: absolute;
+bottom: 0; left:0; right:0;
+padding: 1em 0;
+width: auto;
+height: 3em;
+background: #FF0098;
+color: white;
+text-align: center;
+} 
+
+.branding{
+display: inline-block;
+}
+h1.logo{
+display:none;
+vertical-align: inherit;
+}
+img.logo{
+display: inline-block;
+width: 400px;
+height:auto;
+vertical-align: inherit;
+}
+.mn{
+display: inline-block;
+font-family: BananaBrickRegular;
+font-size:12.85em;
+color: #FF0098;
+}
+
+.tagline {
+text-align: right;
+}
+   
+navigation{
+position: absolute;
+top: 0;
+right: 1em;
+}
+navigation a{
+display: block;
+align: right;
+font-family: BananaBrickRegular;
+font-size: 1.25em;
+margin: .5em;
+}
+
+
+
+h2, h3{
+font-family: BananaBrickRegular;
+font-weight: normal;
+}
+
+h2{
+font-size: 2.5em;
+color: #fff;
+background: #FF0098;
+
+margin: 2em 0 .5em;
+padding-left: .5em;
+}
+
+h3{
+font-size:1.5em;
+color: #fff;
+background: #D900FF;
+margin: 2em 0 .5em;
+padding:  .25em 1em;
+}
+
+.post .text{
+padding: 1em;
+}
+
+
+
+@media screen and (max-width:850px){
+.branding{
+  margin: -.4em .1em;
+}
+img.logo{
+  width: 200px;
+}
+.mn{
+  font-size: 6em;
+}
+
+.tagline{
+  margin-top: -1.25em;
+  text-align: right;
+}
+}
+
+@media screen and (max-width:520px){
+.branding{
+  margin: 0;
+}
+navigation{
+  position: relative;
+  display: block;
+  margin-left: .5em;
+}
+
+.clear{
+  clear: both;
+}
+
+navigation a{
+  display: inline-block;
+  float: left;
+  font-size: 1.5em;
+}
+
+navigation a:nth-child(2n+1){
+  clear: left;
+}
+
+img.logo{
+  width: 200px;
+}
+.mn{
+  font-size: 6em;
+}
+
